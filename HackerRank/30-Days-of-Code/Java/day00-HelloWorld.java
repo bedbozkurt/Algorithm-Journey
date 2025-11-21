@@ -20,8 +20,8 @@ public class Solution {
 		
 		System.out.println("Hello, World.");
         System.out.println(inputString);
-        //Sample output
-        /*Hello, World. 
+        /*Sample output
+        Hello, World. 
         Welcome to 30 Days of Code!*/
 	}
 }
