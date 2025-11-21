@@ -1,11 +1,7 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
 #include <string>
 using namespace std;
-
+//Question link:https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true
 
 int main() {
     string input_string;

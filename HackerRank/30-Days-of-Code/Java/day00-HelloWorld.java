@@ -3,6 +3,9 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
+
+//Question link:https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true
+
 public class Solution {
 	public static void main(String[] args) {
         
