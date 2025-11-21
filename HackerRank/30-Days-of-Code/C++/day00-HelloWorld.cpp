@@ -10,7 +10,7 @@ int main() {
     cout << input_string << endl;
        
     return 0;
-    //Sample output
-    /*Hello, World. 
+    /*Sample output
+    Hello, World. 
     Welcome to 30 Days of Code!*/
 }
