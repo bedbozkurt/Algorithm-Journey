@@ -3,6 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
+//Question Link : https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true
 
 public class Solution {
 	

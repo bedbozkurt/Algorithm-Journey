@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-
+//Question Link : https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true
 int main() {
     int i=4;
     double d=4.0;
