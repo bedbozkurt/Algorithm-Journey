@@ -1,8 +1,4 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 //Question link:https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true
 
