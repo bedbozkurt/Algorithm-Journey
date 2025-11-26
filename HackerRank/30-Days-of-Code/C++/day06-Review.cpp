@@ -20,6 +20,6 @@ int main() {
         }
         cout << endl;
         testcase++;
-    }while (testcase==T);
+    }while (testcase<=T);
     return 0;
 }
