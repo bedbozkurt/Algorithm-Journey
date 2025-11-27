@@ -6,19 +6,19 @@ using namespace std;
 
 int main()
 {
-    
     int l;
-    cin>>l;
-    cin.ignore();
-    string N;
-    getline(cin,N);
-    l=N.length();
-
-    for(int i=l-1;i>=0;i--){
-        cout << N[i];
-    }
-
+    cin >> l;
+    int* N=new int[l];
     
+        for(int i=0;i<l;i++){
+            cin>>N[i];
+        }
+        
+        for(int j=l-1;j>=0;j--){
+           cout << N[j] << " ";
+        }
+    
+    delete[] N;
 
     return 0;
 }
