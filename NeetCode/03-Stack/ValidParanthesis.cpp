@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stack>
 #include <string>
+using namespace std;
 class Solution {
 public:
     bool isValid(string s) {
@@ -33,7 +34,7 @@ public:
         return st.empty();
     }
 };
-int main{
+int main(){
     string s;
     cin >> s;
     Solution sol;
