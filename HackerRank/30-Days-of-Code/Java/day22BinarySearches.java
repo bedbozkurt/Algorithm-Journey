@@ -11,7 +11,7 @@ class Node{
         left=right=null;
     }
 }
-class Solution{
+public class day22BinarySearches{
 
 	public static int getHeight(Node root){
       if (root == null) {

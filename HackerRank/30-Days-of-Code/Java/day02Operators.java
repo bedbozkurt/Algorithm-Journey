@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Question Link : https://www.hackerrank.com/challenges/30-operators/problem?isFullScreen=true
 
-public class Solution {
+public class day02Operators {
     public static void main(String[] args)  {
     Scanner scan = new Scanner(System.in);
     double meal_cost = scan.nextDouble();

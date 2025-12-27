@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 //Question Link : https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true
-class Solution {
+class day08DictionariesAndMaps {
     public static void main(String []arg) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();

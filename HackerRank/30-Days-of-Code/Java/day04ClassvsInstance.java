@@ -4,7 +4,7 @@ import java.util.*;
 // Question Link : https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true
 
 
-public class Person {
+public class day04ClassvsInstance {
     private int age;	
 	public Person(int initialAge) {
         if(initialAge<0){

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //Question Link : https://www.hackerrank.com/challenges/30-data-types/problem?isFullScreen=true
 
-public class Solution {
+public class day01DataTypes {
 	
     public static void main(String[] args) {
         int i = 4;

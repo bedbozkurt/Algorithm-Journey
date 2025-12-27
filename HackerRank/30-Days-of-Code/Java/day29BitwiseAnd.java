@@ -20,7 +20,7 @@ class Result {
     }
 }
 
-public class Solution {
+public class day29BitwiseAnd {
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
 

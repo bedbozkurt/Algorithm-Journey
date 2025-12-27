@@ -4,7 +4,7 @@ import java.util.*;
 
 // Question Link : https://www.hackerrank.com/challenges/30-queues-stacks/problem?isFullScreen=true
 
-public class Solution {
+public class day18QueuesAndStacks {
     LinkedList<Character> queue;
     Stack<Character> stacky = new Stack<>();
     

@@ -30,7 +30,7 @@ class Difference {
     
 } 
 
-public class Solution {
+public class day14Scope {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

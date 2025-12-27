@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
+public class ContainsDuplicate {
     public static boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 1; i++) {

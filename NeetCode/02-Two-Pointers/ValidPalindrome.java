@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Solution {
+public class ValidPalindrome {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();

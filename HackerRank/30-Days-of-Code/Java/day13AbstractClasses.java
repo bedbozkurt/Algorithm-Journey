@@ -26,7 +26,7 @@ class MyBook extends Book{
     }
 }
 
-public class Solution {
+public class day13AbstractClasses {
    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

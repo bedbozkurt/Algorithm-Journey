@@ -4,7 +4,7 @@ import java.util.regex.*;
 
 // Question Link : https://www.hackerrank.com/challenges/30-regex-patterns/problem?isFullScreen=true
 
-public class Solution {
+public class day28RegExPatternsAndIntroToDatabases {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

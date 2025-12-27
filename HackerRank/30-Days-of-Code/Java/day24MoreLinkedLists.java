@@ -12,7 +12,7 @@ class Node{
     }
 	
 }
-class Solution
+public class day24MoreLinkedLists
 {
 
     public static Node removeDuplicates(Node head) {

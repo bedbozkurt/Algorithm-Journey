@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // Question Link : https://www.hackerrank.com/challenges/30-sorting/problem?isFullScreen=true
 
-public class Solution {
+public class day20Sorting {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

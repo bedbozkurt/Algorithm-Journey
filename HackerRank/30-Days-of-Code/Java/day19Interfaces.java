@@ -19,7 +19,7 @@ class Calculator implements AdvancedArithmetic {
     }
 }
 
-class Solution {
+public class day19Interfaces {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -11,7 +11,7 @@ class Node{
         left=right=null;
     }
 }
-class Solution{
+public class day23BSTLevelOrderTraversal{
 
 static void levelOrder(Node root){
       if (root == null) {

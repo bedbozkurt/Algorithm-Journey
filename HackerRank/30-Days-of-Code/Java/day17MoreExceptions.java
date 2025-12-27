@@ -11,7 +11,7 @@ class Calculator{
         return (int) Math.pow(n, p);
     }
 }
-class Solution{
+public class day17MoreExceptions{
 
     public static void main(String[] args) {
     

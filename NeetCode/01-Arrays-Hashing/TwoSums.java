@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-class Solution {
+public class TwoSums {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

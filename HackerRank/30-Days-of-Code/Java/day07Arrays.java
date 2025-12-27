@@ -3,7 +3,7 @@ import java.util.Scanner;
 //Question Link : https://www.hackerrank.com/challenges/30-arrays/problem?isFullScreen=true
 
 
-public class Solution {
+public class day07Arrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         

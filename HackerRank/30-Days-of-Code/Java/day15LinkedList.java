@@ -12,7 +12,7 @@ class Node {
     }
 }
 
-class Solution {
+public class day15LinkedList {
 
     public static Node insert(Node head, int data) {
     Node newNode = new Node(data);

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // Question Link : https://www.hackerrank.com/challenges/30-2d-arrays/problem?isFullScreen=true
 
-public class Solution {
+public class day11TwoDArrays {
     public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
       int[][] arr=new int[6][6];

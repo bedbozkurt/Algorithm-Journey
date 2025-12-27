@@ -12,7 +12,7 @@ class Solution {
         return Arrays.equals(sArray, tArray);
     }
 }
-class Answer{
+public class ValidAnagram{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         

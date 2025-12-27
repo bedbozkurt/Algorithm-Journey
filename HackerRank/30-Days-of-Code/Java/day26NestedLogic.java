@@ -3,7 +3,7 @@ import java.util.*;
 
 // Question Link : https://www.hackerrank.com/challenges/30-nested-logic/problem?isFullScreen=true
 
-public class Solution {
+public class day26NestedLogic {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+public class day09Recursion {
 
     //Question Link : https://www.hackerrank.com/challenges/30-recursion/problem?isFullScreen=true
 

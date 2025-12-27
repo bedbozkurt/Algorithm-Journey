@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Question link:https://www.hackerrank.com/challenges/30-hello-world/problem?isFullScreen=true
 
-public class Solution {
+public class day00HelloWorld {
 	public static void main(String[] args) {
         
 		Scanner scan = new Scanner(System.in); 

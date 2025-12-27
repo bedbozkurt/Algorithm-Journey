@@ -2,7 +2,7 @@ import java.util.*;
 
 // Question Link : https://www.hackerrank.com/challenges/30-testing/problem?isFullScreen=true
 
-public class Solution {
+public class day27Testing {
 
     public static int minimum_index(int[] seq) {
         if (seq.length == 0) {
