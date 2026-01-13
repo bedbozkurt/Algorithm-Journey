@@ -23,5 +23,6 @@ public static void main(String[] args) {
     prices[i]=scan.nextInt();
     }
     System.out.println(maxProfit(prices));
+    scan.close();
 }
 }

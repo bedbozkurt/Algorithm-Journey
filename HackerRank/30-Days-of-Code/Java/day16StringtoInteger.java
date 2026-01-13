@@ -14,5 +14,6 @@ public class day16StringtoInteger {
         catch(Exception e){
             System.out.println("Bad String");
         }
+        scan.close();
     }
 }

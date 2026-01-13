@@ -1,15 +1,14 @@
-import java.io.*;
 import java.util.*;
 
 // Question Link : https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true
 
 
-public class day04ClassvsInstance {
+class Person {
     private int age;	
 	public Person(int initialAge) {
         if(initialAge<0){
             System.out.println("Age is not valid, setting age to 0.");
-            initialAge=0;
+            this.age=0;
         }
         else{
             age=initialAge;

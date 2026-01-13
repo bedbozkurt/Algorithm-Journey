@@ -12,7 +12,7 @@ public class day01DataTypes {
 
         int i2=scan.nextInt();
         double d2=scan.nextDouble();
-        String s2=scan.nextLine();
+        scan.nextLine();
         String s3=scan.nextLine();
         System.out.println(i+i2);
         System.out.println(d2+d);

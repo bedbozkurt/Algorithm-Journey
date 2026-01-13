@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 // Question Link : https://www.hackerrank.com/challenges/30-linked-list-deletion/problem?isFullScreen=true
@@ -12,9 +11,7 @@ class Node{
     }
 	
 }
-public class day24MoreLinkedLists
-{
-
+public class day24MoreLinkedLists{
     public static Node removeDuplicates(Node head) {
       if (head == null) {
         return null;
@@ -37,8 +34,7 @@ public class day24MoreLinkedLists
 
     }
 
-	 public static  Node insert(Node head,int data)
-     {
+	public static  Node insert(Node head,int data){
         Node p=new Node(data);			
         if(head==null)
             head=p;
@@ -54,17 +50,15 @@ public class day24MoreLinkedLists
         }
         return head;
     }
-    public static void display(Node head)
-        {
+    public static void display(Node head){
               Node start=head;
               while(start!=null)
               {
                   System.out.print(start.data+" ");
                   start=start.next;
               }
-        }
-        public static void main(String args[])
-        {
+    }
+    public static void main(String args[]){
               Scanner sc=new Scanner(System.in);
               Node head=null;
               int T=sc.nextInt();
@@ -74,6 +68,7 @@ public class day24MoreLinkedLists
               }
               head=removeDuplicates(head);
               display(head);
+              sc.close();
 
-       }
     }
+}

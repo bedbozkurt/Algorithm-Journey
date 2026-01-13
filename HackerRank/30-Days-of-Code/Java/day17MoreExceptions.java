@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 // Question Link : https://www.hackerrank.com/challenges/30-more-exceptions/problem?isFullScreen=true
 

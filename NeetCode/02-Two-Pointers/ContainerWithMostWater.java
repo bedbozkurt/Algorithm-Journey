@@ -1,3 +1,4 @@
+import java.util.*;
 class ContainerWithMostWater {
     public static int maxArea(int[] height) {
         int maxArea = 0;

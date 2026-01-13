@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 //Question Link : https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem?isFullScreen=true
 class day08DictionariesAndMaps {

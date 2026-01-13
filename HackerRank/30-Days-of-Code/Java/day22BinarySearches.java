@@ -1,6 +1,4 @@
 import java.util.*;
-import java.io.*;
-
 // Question Link : https://www.hackerrank.com/challenges/30-binary-search-trees/problem?isFullScreen=true
 
 class Node{
@@ -57,5 +55,6 @@ public class day22BinarySearches{
         }
         int height=getHeight(root);
         System.out.println(height);
+        sc.close();
     }
 }

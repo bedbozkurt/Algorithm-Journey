@@ -26,7 +26,7 @@ class BinarySearch {
             nums[i] = scan.nextInt();
         }
         int target = scan.nextInt();
-        System.out.println(search(nums,n));
+        System.out.println(search(nums,target));
         scan.close();
     }
 }

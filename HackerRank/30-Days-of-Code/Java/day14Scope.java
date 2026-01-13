@@ -1,9 +1,4 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
 // Question Link : https://www.hackerrank.com/challenges/30-scope/problem?isFullScreen=true
 
 class Difference {

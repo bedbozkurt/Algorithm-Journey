@@ -20,6 +20,7 @@ public class ContainsDuplicate {
             nums[i] = scan.nextInt();
         }
         boolean result = containsDuplicate(nums);
+        System.out.println(result);
         scan.close();
     }
 }

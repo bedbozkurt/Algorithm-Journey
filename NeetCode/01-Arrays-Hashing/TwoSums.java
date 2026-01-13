@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class TwoSums {
     public static void main(String[] args) {
@@ -16,6 +14,7 @@ public class TwoSums {
         int target = scanner.nextInt();
 
         int[] result = twoSum(nums, target);
+        System.out.println(result);
         
         scanner.close();
     }

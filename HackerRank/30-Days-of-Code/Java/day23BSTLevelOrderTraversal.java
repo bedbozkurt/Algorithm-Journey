@@ -1,6 +1,4 @@
 import java.util.*;
-import java.io.*;
-
 // Question Link : https://www.hackerrank.com/challenges/30-binary-trees/problem?isFullScreen=true
 
 class Node{
@@ -63,5 +61,6 @@ public static Node insert(Node root,int data){
                 root=insert(root,data);
             }
             levelOrder(root);
+            sc.close();
         }	
 }
