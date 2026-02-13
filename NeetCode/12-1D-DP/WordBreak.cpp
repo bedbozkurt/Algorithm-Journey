@@ -1,0 +1,23 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <unordered_set>
+
+using namespace std;
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> wordSet(wordDict.begin(), wordDict.end());
+        vector<bool> dp(s.size() + 1);
+        dp[0] = true;
+        for(int i = 0; i <= s.size(); i++){
+            for(int j = 0; j <= i; j++){
+                if(dp[j] == true && wordSet.count(s.substr(j, i - j))){
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+        return dp[s.size()];
+    }
+};
