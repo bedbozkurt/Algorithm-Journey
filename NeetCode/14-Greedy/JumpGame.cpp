@@ -1,0 +1,17 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+class Solution {
+public:
+    bool canJump(vector<int>& nums) {
+        int maxReach = 0;
+        for(int i = 0; i < nums.size(); i++){
+            if(i > maxReach){
+                return false;
+            }
+            maxReach =
+                max(i+nums[i], maxReach);
+        }
+        return true;
+    }
+};
